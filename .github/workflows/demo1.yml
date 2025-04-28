@@ -1,13 +1,13 @@
 name: demo1
 
-on: workflow_dispatch
+on: push
 
 jobs:
     This-is-first-job:
         runs-on: ubuntu-latest
         steps:
             - run: echo "${{github.actor}}, welcome to Github actions !!!"
-            
+
 
 
 
